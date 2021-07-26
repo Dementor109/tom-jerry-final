@@ -4,15 +4,15 @@ var tomI, tomII,tomIII;
 var jerryI, jerryII,jerryIII;
 
 function preload() {
-    bgImg = loadImage("images/garden.png");
+    bgImg = loadImage("garden.png");
 
-    tomI= loadAnimation("images/beginTom.png");
-    tomII=loadAnimation("images/tomwALKING.png","images/tomW2.png");
-    tomIII= loadAnimation("images/endTOm.png");
+    tomI= loadAnimation("beginTom.png");
+    tomII=loadAnimation("tomwALKING.png","tomW2.png");
+    tomIII= loadAnimation("endTOm.png");
 
-    jerryI=loadAnimation("images/start.png");
-    jerryII= loadAnimation("images/t1.png","images/t2.png");
-    jerryIII=loadAnimation("images/end.png");
+    jerryI=loadAnimation("start.png");
+    jerryII= loadAnimation("t1.png","t2.png");
+    jerryIII=loadAnimation("end.png");
 
 }
 
